@@ -56,3 +56,13 @@ body {
 .controls .controls_range {
     margin-bottom: 30px;
 }
+
+@media screen and (max-width:600px) {
+    body {
+        padding:10px;
+    }
+    .controls_colors .controls_color {
+        width:30px;
+        height: 30px;
+    }
+}
